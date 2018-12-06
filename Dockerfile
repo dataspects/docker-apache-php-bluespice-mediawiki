@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y curl \
   mariadb-client-core-10.1 \
   git \
   libicu-dev \
+  imagemagick \
   libfontconfig && \
   rm -rf /var/lib/apt/lists/* && \
   a2enmod rewrite && \
